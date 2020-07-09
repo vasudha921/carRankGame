@@ -35,6 +35,7 @@ class Form {
     });
 
     this.reset.mousePressed(()=>{
+      Player.updateCarsAtEnd(0);
       player.updateCount(0);
       game.update(0);
     });
